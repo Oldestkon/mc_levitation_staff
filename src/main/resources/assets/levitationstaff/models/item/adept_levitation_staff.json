@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "levitationstaff:item/adept_levitation_staff"
+  }
+} 

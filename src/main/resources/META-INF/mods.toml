@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="levitationstaff"
+version="1.0.0"
+displayName="Levitation Staff"
+description='''
+A magical mod that adds levitation staffs with varying powers. Levitate mobs with magical staffs that consume magicka and can be replenished in cauldrons with glowstone dust.
+'''
+logoFile="levitationstaff.png"
+credits="Created with magical programming powers"
+authors="ModAuthor"
+
+[[dependencies.levitationstaff]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.levitationstaff]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.20)"
+ordering="NONE"
+side="BOTH" 

@@ -1,0 +1,18 @@
+{
+  "item.levitationstaff.novice_levitation_staff": "Novice Levitation Staff",
+  "item.levitationstaff.apprentice_levitation_staff": "Apprentice Levitation Staff", 
+  "item.levitationstaff.adept_levitation_staff": "Adept Levitation Staff",
+  "item.levitationstaff.expert_levitation_staff": "Expert Levitation Staff",
+  "item.levitationstaff.master_levitation_staff": "Master Levitation Staff",
+  
+  "itemGroup.levitationstaff": "Levitation Staffs",
+  
+  "subtitle.levitationstaff.staff_cast": "Staff casts spell",
+  "subtitle.levitationstaff.staff_cast_fail": "Staff casting fails",
+  "subtitle.levitationstaff.magicka_replenish": "Magicka replenished",
+  "subtitle.levitationstaff.levitation_ambient": "Magical humming",
+  
+  "particle.levitationstaff.levitation_cast": "Levitation Cast",
+  "particle.levitationstaff.levitation_idle": "Levitation Idle",
+  "particle.levitationstaff.magicka_replenish": "Magicka Replenish"
+} 

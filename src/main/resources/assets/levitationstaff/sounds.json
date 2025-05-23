@@ -1,0 +1,63 @@
+{
+  "staff_cast": {
+    "subtitle": "subtitle.levitationstaff.staff_cast",
+    "sounds": [
+      {
+        "name": "levitationstaff:magic/staff_cast1",
+        "volume": 0.8,
+        "pitch": 1.0
+      },
+      {
+        "name": "levitationstaff:magic/staff_cast2", 
+        "volume": 0.8,
+        "pitch": 1.1
+      },
+      {
+        "name": "levitationstaff:magic/staff_cast3",
+        "volume": 0.8,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "staff_cast_fail": {
+    "subtitle": "subtitle.levitationstaff.staff_cast_fail",
+    "sounds": [
+      {
+        "name": "levitationstaff:magic/staff_fail1",
+        "volume": 0.6,
+        "pitch": 0.8
+      },
+      {
+        "name": "levitationstaff:magic/staff_fail2",
+        "volume": 0.6,
+        "pitch": 0.7
+      }
+    ]
+  },
+  "magicka_replenish": {
+    "subtitle": "subtitle.levitationstaff.magicka_replenish", 
+    "sounds": [
+      {
+        "name": "levitationstaff:magic/replenish1",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "levitationstaff:magic/replenish2",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  },
+  "levitation_ambient": {
+    "subtitle": "subtitle.levitationstaff.levitation_ambient",
+    "sounds": [
+      {
+        "name": "levitationstaff:ambient/magical_hum",
+        "volume": 0.3,
+        "pitch": 1.0,
+        "stream": true
+      }
+    ]
+  }
+} 

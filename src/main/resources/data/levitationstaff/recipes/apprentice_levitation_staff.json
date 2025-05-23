@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    " N ",
+    " G "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:eye_of_ender"
+    },
+    "N": {
+      "item": "levitationstaff:novice_levitation_staff"
+    },
+    "G": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "levitationstaff:apprentice_levitation_staff"
+  }
+} 
