@@ -39,8 +39,8 @@ public class LevitationCapabilityImpl implements ILevitationCapability, INBTSeri
                 Math.max(0, (int)(strength - 1.0f)), false, false));
             
             // Disable AI temporarily
-            if (entity.getNavigation() != null) {
-                entity.getNavigation().stop();
+            if (entity instanceof PathfinderMob) {
+                ((PathfinderMob)entity).getNavigation().stop();
             }
         } else {
             // Remove levitation effect

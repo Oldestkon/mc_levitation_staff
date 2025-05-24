@@ -54,7 +54,7 @@ public class LevitationStaff extends Item {
                     boolean success = castLevitation(level, player, stack, target);
                     
                     // Send packet to client for animation
-                    NetworkHandler.sendToPlayer(new StaffCastPacket(success), player);
+                    // NetworkHandler.sendToPlayer(new StaffCastPacket(success), player);
                     
                     return InteractionResultHolder.sidedSuccess(stack, level.isClientSide);
                 }
@@ -64,13 +64,13 @@ public class LevitationStaff extends Item {
                 Vec3 castPos = player.getEyePosition().add(lookVec.scale(staffType.getRange() * 0.7));
                 
                 boolean anySuccess = castAreaLevitation(level, player, stack, castPos);
-                NetworkHandler.sendToPlayer(new StaffCastPacket(anySuccess), player);
+                //NetworkHandler.sendToPlayer(new StaffCastPacket(anySuccess), player);
                 
                 return InteractionResultHolder.sidedSuccess(stack, level.isClientSide);
             }
             
             // Failed cast
-            NetworkHandler.sendToPlayer(new StaffCastPacket(false), player);
+            // NetworkHandler.sendToPlayer(new StaffCastPacket(false), player);
         }
         
         return InteractionResultHolder.pass(stack);
